@@ -1,0 +1,48 @@
+.real{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.real h2 {
+    font-size: 32px;
+    padding-block: 50px;
+    color: #4b5563;
+    text-align: center;
+}
+
+.img-real img {
+    width: 300px;
+    border-radius: .5rem;
+    display: block;
+}
+
+.texto-real {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-inline: 2rem;
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+.texto-re {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 55rem;
+}
+
+.texto-re ul {
+    margin-left: 2rem;
+}
+
+.texto-re  ul li {
+    list-style: circle;
+}
+
+.texto-re span {
+    color: #7257fa;
+}

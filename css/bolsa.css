@@ -1,0 +1,48 @@
+.bolsa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bol{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #4b5563;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 0.75rem;
+    margin-top: 3.125rem;
+}
+
+.bolsa h2 {
+    font-size: 32px;
+    color: #000;
+}
+
+.bolsa-influencia {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-inline: 2rem;
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+.bolsa-img img {
+    width: 300px;
+    border-radius: .5rem;
+}
+
+.first {
+    color: #7257fa;
+    margin-bottom: 1rem;
+}
+
+.yes {
+    padding: 1000px;
+}

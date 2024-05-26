@@ -1,0 +1,66 @@
+.moedas{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-moeda {
+    position: relative;
+    margin-top: 50px;
+    width: 335px;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+    color: #4b5563;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.image-moeda {
+    position: relative;
+    margin: 0.75rem;
+    margin-top: -1.5rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    background-color: #6b7280;
+    color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.4);
+}
+
+.image-moeda img {
+    width: 100%;
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+.container-moeda{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc p {
+    text-align: center;
+    margin-top: 2rem;
+    width: 900px;
+    color: #4b5563;
+}
