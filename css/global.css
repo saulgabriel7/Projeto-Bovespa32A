@@ -147,3 +147,14 @@ main{
     text-decoration: underline;
 }
 
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.logos img{
+    width:400px;
+    height: 400px;
+}
